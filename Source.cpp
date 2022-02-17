@@ -1,19 +1,14 @@
-#include <iostream>
-#include <algorithm>
-using namespace std;
-
 int main()
 {
     setlocale(NULL, "ukr");
     int a, b, c;
-    cout << "����i�� a,b,c \n";
+    cout << "Введiть a,b,c \n";
     cout << "a)";
-    cin >> a;
+    cin >> a; //Ввести число а
     cout << "b)";
-    cin >> b;
-    cout << "c)";
-    cin >> c;
-    cout << "min = " << min({ (a),(b),(c) });
+    cin >> b; //Ввести число c
+    cout << "c)"; 
+    cin >> c; //Ввести число b
+    cout << "min = " << min({ (a),(b),(c) }); // Вираховується мінімальне значення.
     return 0;
 }
-
